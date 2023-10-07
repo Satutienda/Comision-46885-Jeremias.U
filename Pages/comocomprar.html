@@ -5,52 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Satutienda</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="shortcut icon" href="../img/logosatu.png">
 </head>
 <body>
     <header> 
         
-        <img class="logoNav"  src="../img/logosatusinfondo.png" alt="Satutienda"> 
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img class="logoNav"  src="../img/logosatusinfondo.png" alt="Satutienda"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="todoslosproductos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comocomprar.html">Como lo compro?</a>
+                    </li>
 
-    
-    
-    <div>
-
-        <input type="text" name="nombre" id="nombre" placeholder=" Buscalo aqui" >   
-
-
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="todoslosproductos.html">Productos</a></li>
-                <li><a href="comocomprar.html">Como lo compro?</a></li>
-                <li><a href="contactanos.html">Quiero consultar</a></li>
-            </ul>
-        </nav>
-        
-            <img class="carroFav" src="../img/image_processing20200511-25230-1yr34yk.png" alt="favoritos"> 
-            <img class="carroFav" src="../img/symbole-charrette-jaune.png" alt="Carro">
-            <img class="userAvatar" src="../img/ffa09aec412db3f54deadf1b3781de2a.png" alt="avatar"> 
-            <nav>
-                <ul>
-                    <li><a href="">Hola!! Usuario</a></li>
-                    <li ><a class="cerrarSesion" href="">Cerrar sesion</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactanos.html">Quiero consultar</a>
+                    </li>
                 </ul>
-            </nav>
-    </div>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscalo aqui" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                </form>
+            </div>
+            </div>
+        </nav>
 
 </header>
     <main>
-        <h2 class="ComoComprar">Tienes dudas de como realizar la compra, como se te envia ,  que pasa si no te gusta, etc?</h2>
         <section>
+            <h2 class="ComoComprar">Tienes dudas de como realizar la compra, como se te envia ,  que pasa si no te gusta, etc?</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente animi a veritatis nostrum facere nam suscipit est dicta! Officiis eveniet odio ratione fugiat placeat delectus obcaecati sunt repellendus, doloribus blanditiis.</p>
         </section>
     </main>
     <footer>
         <img class="logofoot" src="../img/logosatusinfondo.png" alt="Satutienda">
-            <div>
-                <p>Satutienda es una empresa registrada en uruguay, Contactanos en nuestras redes sociales..</p>   
-            </div>
+            
+            <p>Satutienda es una empresa registrada en uruguay</p>  
             <div class="contactoicons">
                 <img src="../img/whatappicon.png" alt="Satutienda">
                 <img src="../img/instagramicon.png" alt="Satutienda">
@@ -58,5 +56,5 @@
                 <img src="../img/Mailicon.png" alt="Satutienda">
             </div>
     </footer>
-        
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>

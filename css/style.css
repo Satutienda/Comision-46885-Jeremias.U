@@ -1,4 +1,8 @@
-/*!------------------------------RESET-----------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+
+/*!------------------------------RESET----------------------------- cambio en hig des*/
 
 *{
     margin: 0;
@@ -13,7 +17,27 @@
 
 
 /*!------------------------------HEADER-----------------------------*/
-header{
+/*!------------------------------nav bootrap -----------------------------*/
+
+.logoNav {
+    height: 60px;
+    width: 100%;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 0px;
+    height: 100%;
+}
+
+
+
+
+/*header{
     background: #0c0f0a;
     display: flex;
     width: 100%;
@@ -88,112 +112,133 @@ header nav ul li a{
     color: #ff595e;
     padding-right: 3px;
     padding-left: 20px;
-}
-
-
+}*/
 
 /*!------------------------------MAIN-----------------------------*/
 
 
 
-main iframe {
-    height: 150px;
-    width: 250px;
-}
+
 .heroStylesContenedor {
 width: 100%;
-height: 25vh;
 display: flex;
 align-items: center;
 justify-content:center;
 flex-wrap: wrap;
 margin-right: 0px;
-background-color: #0c0f0a;
+position: relative;
+
 border-top: rgba(220, 220, 220, 0.186) solid 1px;
-z-index: 3; 
 
 }
+
+@media screen and (max-width:1145px){
+
+    .heroStylesContenedor {
+        display: none; 
+        }
+}
+
 .heroStylesContenedor div{
-    position: relative;
     width: 280px; 
-    height: 100%;
-    
 }
-
-.heroStylesContenedor div h6{ 
-    text-align:left;
-    color: azure;
-    background-color: #0f4d5ca6;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding-left: 5px;
-    padding-right: 5px;
+.heroStylesContenedor div div {
     display: flex;
     justify-content: space-between;
-    
-    
-}
-.heroStylesContenedor div h6 a{ 
-    color:  #ff595e; 
-    text-decoration: none;
+    background-color: #000000f0;
+    align-content: center;
 }
 
-.textoPrincipalHero a{
-    text-decoration: none;
-    color: azure; 
-}
-
-.textoPrincipalHero{
-    position: absolute;
-    text-align: center;
-    text-decoration: none;
-    color: azure;
-    background-color: #ffc400af;
-    padding: 5px;
-    border-radius: 5px;
-    width: 40vh;
-    align-self: flex-start;
-    margin-top: 10px;
-}
-
-.heroStyles div img {
+.heroStylesContenedor div img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+.heroStylesContenedor div div h6{ 
+    color: azure;
+    font-size: 10px;
+    padding: 5px;
+}
+
+
+.heroStylesContenedor div div a{ 
+
+    color: yellowgreen;
+    font-size: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.textoPrincipal { 
+    position: absolute;
+    background-color: yellow;
+    color:  gray; 
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+
+}
+
+
+
+
+
+
+
+
+.carouselBootrap h6 { 
+    background-color: #0f4d5c;
+    color: white;
+}
+.carouselBootrap h6 a { 
+    color: #ff595e;
+    text-decoration: none;
+}
+@media screen and (min-width:1145px){
+
+    .carouselBootrap {
+    display: none;
+        
+    }
+
 }
 
 /*----------------------------Quiero Consultar*----------------*/
 
-.mainQuieroConsultar{
+.QuieroConsultar{
 
-    height: 100vh;
-    width: 100%;
+
     display: flex;   
     flex-direction: column;
     align-items: center;   
 }
 
-.mainQuieroConsultar section {
-    display: flex;
-    justify-content:center; 
-    padding-top: 20px; 
-}
+
 .formularioContacto {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
-    height: 100%;
+    width: 70%;
     border:gainsboro solid 1px;
     box-shadow: 3px -3px 3px gainsboro;
     border-radius: 5px;
     font-size: small;
+    margin: 20px;
+}
+
+.encabezadoFormulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 
 .sobreQueConsulta{
-    height: 30px;
+    height: 20%;
     font-size: xx-small;
-    align-items: center;   
+    align-items: center; 
+    margin: 10px;
 }
 
 .formularioContacto div input{
@@ -210,25 +255,46 @@ z-index: 3;
     
     
 }
+
+@media screen and (max-width:425px){
+
+    .formularioContacto div {
+        display: flex;
+        flex-direction: column;   
+    }
+
+}
+
+
+
+
+
 .tipoClienteConsulta{
     background-color: #0c0f0a;
     border-radius: 5px;
     font-size: xx-small;
     color: #ff595e;
 }
-.formularioContacto div input {
-    width: 70%;
-    height: 90%;
-    
+.inputselda {
+    width: 90%;
+    height: 4vh; 
 }
+
 .formularioContacto div label {
 margin-left: 5px;
-margin-right: 5px;
 font-weight: 100;
 font-size: xx-small;
 align-items: center;
-    
 }
+
+.textolibre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+    
+
 .formularioContacto div textarea{
     background-color: rgba(128, 128, 128, 0.025);
     width: 70%;
@@ -249,9 +315,13 @@ align-items: center;
     color: #ffc300;
     border-radius: 5px;
 }
+@media screen and (max-width:850px){
 
+    .formularioContacto button{
+        align-self: self-start;
+    }
 
-
+}
 
 /*----------------------------Novedades----------------*/
 .tituloNovedadaes{
@@ -262,8 +332,7 @@ align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    height: 300px;
+    width: 100%;   
     justify-content: center;
     margin-top: 20px;
 }
@@ -276,6 +345,7 @@ align-items: center;
     box-shadow: 3px -3px 3px gainsboro;
     border:gainsboro solid 1px;
     margin-left: 10px;
+    margin-bottom: 10px;
     
 }
 
@@ -327,6 +397,7 @@ border-radius: 10px;
     color: white;
     font-size: small;
     padding: 5px;
+    margin-bottom: 5px;
 
     
 }
@@ -339,6 +410,7 @@ border-radius: 10px;
 .precioAnterior{
     text-decoration:line-through;
     color: #ff595e;
+    font-size: x-small;
 }
 
 .precios{
@@ -346,18 +418,294 @@ border-radius: 10px;
     justify-content: space-around;
     margin-bottom: 15px;
     margin-top: 15px;
+    
 
 }
 .precioActual{
     color: #264653;
+    font-size: small;
+
+}
+
+
+
+/*----------------------------SobreNososotros----------------*/
+
+.grid-galeria {
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    grid-template-columns:   1fr 1fr 1fr 1fr;
+    grid-template-rows: 40% 30% 30% ;
+    gap: 2px;
+    margin-bottom: 10px;
+    
+    
+    
+}
+
+@media screen and (max-width:1000px){
+
+    .grid-galeria {
+        display: grid;
+        width: 100%;
+        height: 70vh;
+        grid-template-columns:   1fr;
+        grid-template-rows: 40% 30% 30% ;
+        
+        gap: 2px;
+        
+        
+        
+    }
+
+}
+    
+
+
+
+
+
+
+
+
+.tituloParrafo{
+    position: absolute;
+}
+
+.ParrafosGrid{
+    text-align: center;
+    color: #f0f4f3;
+    font-size: medium;
+}
+
+
+.div-tecno{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: center;    
+    justify-content: center;
+    
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 4  ;
+    
+}
+@media screen and (max-width:1000px){
+
+    .div-tecno{
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1  ;
+        
+    }
 
 }
 
 
 
 
+.tecno{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tituloTecno{
+    font-family: "Press Start 2P";
+    text-align: center;
+    color:#2ec4b6;
+    font-size: medium;
+    text-shadow: 2px 1px 0px black;
+
+}
 
 
+.div-mascota{    
+    
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+}
+
+@media screen and (max-width:1000px){
+
+    .div-mascota{    
+    
+        display: none;
+    }
+
+}
+.mascota{   
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 30%;
+
+}
+
+
+
+
+.div-sala {
+    
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+}
+@media screen and (max-width:1000px){
+
+    .div-sala {
+    
+    display: none;
+    }
+
+}
+.sala {
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 70%;
+
+}
+
+
+
+
+.div-urbano{ 
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+@media screen and (max-width:1000px){
+
+    .div-urbano{ 
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2  ;
+    
+    }
+
+}
+.urbano{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 90% 5%;
+}
+.tituloUrbano{
+    font-family: "Covered By Your Grace";
+    text-align: center;
+    background-color: #26465389;
+    border-radius: 10%;
+
+    font-size: 50px;
+    color: lightgrey;
+    text-shadow: 2px 1px 0px black;
+}
+@media screen and (max-width:1000px){
+
+    .tituloUrbano{
+        
+
+        font-size:xx-large;
+        color: lightgrey;
+        text-shadow: 2px 1px 0px black;
+    }
+
+}
+
+
+
+.div-deCompras{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2; 
+}
+@media screen and (max-width:1000px){
+
+    .div-deCompras{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3; 
+    }
+
+}
+.deCompras{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 15%;
+}
+
+.tituloCompras{
+    
+    text-align: center;
+    border-radius: 10%;
+
+    font-size: 20px;
+    color: rgba(211, 211, 211, 0.692);
+    text-shadow: 2px 1px 0px black;
+
+
+}
+
+.div-agente{ 
+    
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1; 
+}
+
+@media screen and (max-width:1000px){
+
+    .div-agente{ 
+    display: none; 
+    }
+
+}
+
+
+
+
+.agente{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 90% 5%;
+    
+    }
 
 
 
@@ -369,26 +717,27 @@ footer {
     background-color: #0c0f0a;
     display: flex;
     justify-content:space-between ;
-    align-items: center;
-
-    
+    align-items: center; 
 }
 
 .logofoot{
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     padding-top: 2px;
     border-radius: 50%;
 
 }
+
+
 .contactoicons img{
     height: 15px;
     width: 15px;
     border-radius: 50%;
     background-color: aliceblue;
 }
-footer p	{
-    color: white;
-    ;
-    font-size: 7px;
+
+
+footer p{
+    color: rgb(251, 250, 250);
+    font-size: 13px;   
 }
