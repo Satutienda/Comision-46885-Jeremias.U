@@ -1,0 +1,394 @@
+/*!------------------------------RESET-----------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+/*!------------------------------HEADER-----------------------------*/
+header{
+    background: #0c0f0a;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+header div{
+    display: flex;
+    height: 30%;
+    justify-content: center;   
+}
+
+header input {
+    font-size: 10px;
+    margin-left: 20px;
+    margin-right: 50px;
+    color: #ffc300;
+    border-style: none;
+    border-radius: 5px;
+    width: 50vh;
+    
+
+}
+
+
+
+header nav ul {
+    list-style: none; 
+    display: flex; 
+    flex-direction: row;
+    padding: 0px; 
+    height: 100%;  
+}
+
+header nav ul li{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 0px;
+    height: 100%;
+}
+
+.logoNav {
+    height: 40px;
+    width: 40px;
+    padding-left: 5px;
+
+}
+.carroFav{
+    
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    
+}
+.userAvatar{
+    height: 20px;
+    width: 20px; 
+    margin-left: 100px;
+}
+.cerrarSesion{
+    color: #ff595e;
+    padding-right: 3px;
+    padding-left: 20px;
+}
+
+
+
+/*!------------------------------MAIN-----------------------------*/
+
+
+
+main iframe {
+    height: 150px;
+    width: 250px;
+}
+.heroStylesContenedor {
+width: 100%;
+height: 25vh;
+display: flex;
+align-items: center;
+justify-content:center;
+flex-wrap: wrap;
+margin-right: 0px;
+background-color: #0c0f0a;
+border-top: rgba(220, 220, 220, 0.186) solid 1px;
+z-index: 3; 
+
+}
+.heroStylesContenedor div{
+    position: relative;
+    width: 280px; 
+    height: 100%;
+    
+}
+
+.heroStylesContenedor div h6{ 
+    text-align:left;
+    color: azure;
+    background-color: #0f4d5ca6;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.heroStylesContenedor div h6 a{ 
+    color:  #ff595e; 
+    text-decoration: none;
+}
+
+.textoPrincipalHero a{
+    text-decoration: none;
+    color: azure; 
+}
+
+.textoPrincipalHero{
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    color: azure;
+    background-color: #ffc400af;
+    padding: 5px;
+    border-radius: 5px;
+    width: 40vh;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.heroStyles div img {
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------------------Quiero Consultar*----------------*/
+
+.mainQuieroConsultar{
+
+    height: 100vh;
+    width: 100%;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;   
+}
+
+.mainQuieroConsultar section {
+    display: flex;
+    justify-content:center; 
+    padding-top: 20px; 
+}
+.formularioContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border:gainsboro solid 1px;
+    box-shadow: 3px -3px 3px gainsboro;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.sobreQueConsulta{
+    height: 30px;
+    font-size: xx-small;
+    align-items: center;   
+}
+
+.formularioContacto div input{
+    border-radius: 5px;   
+    border:gainsboro solid 1px;
+    background-color: rgba(128, 128, 128, 0.025);
+}
+
+.formularioContacto div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+    
+}
+.tipoClienteConsulta{
+    background-color: #0c0f0a;
+    border-radius: 5px;
+    font-size: xx-small;
+    color: #ff595e;
+}
+.formularioContacto div input {
+    width: 70%;
+    height: 90%;
+    
+}
+.formularioContacto div label {
+margin-left: 5px;
+margin-right: 5px;
+font-weight: 100;
+font-size: xx-small;
+align-items: center;
+    
+}
+.formularioContacto div textarea{
+    background-color: rgba(128, 128, 128, 0.025);
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+    border: gainsboro solid 1px;
+
+
+}
+.formularioContacto button{
+    align-self: self-end;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: xx-small;
+    padding: 3px;
+    background-color: #0c0f0a;
+    border-style: none;
+    color: #ffc300;
+    border-radius: 5px;
+}
+
+
+
+
+/*----------------------------Novedades----------------*/
+.tituloNovedadaes{
+    color: #2ec4b6;
+    text-align: center;
+}
+.novedades {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.tarjetaProducto{
+    width: 175px;
+    height: 100%;
+    position: relative;
+    border: #0c0f0a solid 1px;
+    border-radius: 10px;
+    box-shadow: 3px -3px 3px gainsboro;
+    border:gainsboro solid 1px;
+    margin-left: 10px;
+    
+}
+
+.espacioImagen{
+display: flex;
+height: 100%;
+flex-direction: row-reverse;
+justify-content: space-between;
+position: relative;
+border-radius: 10px;
+
+}
+.fotoprincipal{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.pinProducto {     
+    height: 15%;
+    width: 17%;
+    position: absolute;
+    align-self: self-start;   
+}
+.descripcionProducto{
+    position: absolute;
+    color: whitesmoke;
+    background-color: #0c0f0a9e;
+    font-size: xx-small;
+    width: 100%;
+    height: 20%;
+    align-self: self-end; 
+    text-align: center;
+}
+.iconoscondiciones{
+    display: flex;
+
+    justify-content: space-around;
+    border:gainsboro solid 1px;
+    background-color: #0c0f0a14;
+}
+.pinCondicionesVenta{
+    height: 4%;
+    width: 15%;
+}
+.botonComprar a {
+    background-color: #2ec4b6;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    padding: 5px;
+
+    
+}
+.botonComprar{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.precioAnterior{
+    text-decoration:line-through;
+    color: #ff595e;
+}
+
+.precios{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+.precioActual{
+    color: #264653;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*!------------------------------FOOTER-----------------------------*/
+footer {
+    background-color: #0c0f0a;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+    
+}
+
+.logofoot{
+    height: 20px;
+    width: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+
+}
+.contactoicons img{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+footer p	{
+    color: white;
+    ;
+    font-size: 7px;
+}
