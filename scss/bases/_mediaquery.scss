@@ -145,6 +145,24 @@
     }            
 }
 
+@media screen and (max-width:800px)
+{
+
+    .QuieroConsultar
+    {
+        flex-direction: column;
+        align-items: start;
+
+        .formularioContacto
+        {
+            width: 60%; 
+        }
+        .googleMaps      
+        {
+            margin-left: 20px;
+        }
+    }
+}
 
 
 

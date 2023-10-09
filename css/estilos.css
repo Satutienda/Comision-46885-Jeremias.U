@@ -449,3 +449,12 @@ footer {
     .QuieroConsultar .formularioContacto div {
       display: flex;
       flex-direction: column; } }
+
+@media screen and (max-width: 800px) {
+  .QuieroConsultar {
+    flex-direction: column;
+    align-items: start; }
+    .QuieroConsultar .formularioContacto {
+      width: 60%; }
+    .QuieroConsultar .googleMaps {
+      margin-left: 20px; } }
