@@ -1,0 +1,21 @@
+{
+  "name": "comision-46885-jeremias",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hola 👋,soy Jeremias</h1>\r <h3 align=\"center\">Soy Desarrollador Front end y estoy aprendiendo 😊😊😊🛠️</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    
+
+
+
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  }
+}

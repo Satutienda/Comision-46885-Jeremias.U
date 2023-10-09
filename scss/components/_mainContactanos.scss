@@ -1,0 +1,166 @@
+
+
+
+.QuieroConsultar{
+
+    display: flex;   
+    justify-content: start;
+    align-items: end;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(9, 9, 9, 0.704),
+        rgba(9, 9, 9, 0.704)), url("../img/jeremias115_trabajador_enpresa_de_envios_postales_entregando_un_cc024cfd-1e52-495d-8e99-758e913d08ed.png");
+
+        .googleMaps
+        {   display: flex;
+            flex-direction: column;
+            align-content: center;
+            width: 200px;
+            
+    
+            iframe
+            {
+            width: 100%;
+            height: 50%;
+            border-radius: 100%;
+            background-color: rgba(0, 0, 0, 0.832);
+            box-shadow: 3px -3px 3px rgba(32, 30, 30, 0.778);
+            }
+            h6
+            {
+                text-align: center;
+                color: #ff006e;
+            }
+        }
+
+
+
+
+    .formularioContacto 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 35%;
+        border:rgba(220, 220, 220, 0.295) solid 1px;
+        border-radius: 5px;
+        font-size: small;
+        margin: 20px;
+        background-color: rgba(0, 0, 0, 0.636);
+
+        .encabezadoFormulario
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+
+
+        .tipoClienteConsulta
+            {
+                background-color: #0c0f0a;
+                border-radius: 5px;
+                font-size: xx-small;
+                color: lemonchiffon;
+            }
+        }
+        .sobreQueConsulta
+        { 
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+            height: 20%;
+            font-size: xx-small;
+            align-items: center; 
+            margin: 10px;
+            color: white;
+
+        
+        }
+        .datosPersonales
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+            align-items: center;
+            text-align: center;
+
+            label
+            {
+                margin-left: 5px;
+                font-weight: 100;
+                font-size: xx-small;
+                align-items: center;  
+                color: white;
+                margin-right: 2px; 
+                text-align: center;
+
+            }
+
+
+            .inputselda
+            {   
+                width: 90%;
+                height: 4vh; 
+                border-radius: 5px;   
+                border:rgba(220, 220, 220, 0.295) solid 1px;
+                background-color: rgba(245, 245, 245, 0.452);
+            }
+        }
+
+        .textolibre
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+            align-items: center; 
+
+            label
+            {
+                margin-left: 5px;
+                font-weight: 100;
+                font-size: small;
+                align-items: center; 
+                color: white;     
+
+            }
+            textarea{
+            background-color: rgba(245, 245, 245, 0.214);
+            width: 70%;
+            height: 100%;
+            border-radius: 5px;
+            border: gainsboro solid 1px;
+            }
+        
+
+        }
+        div
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+
+
+
+            button
+            {
+                align-self: self-end;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                font-size: xx-small;
+                padding: 3px;
+                background-color: $colorLogoCeleste;
+                border-style: none;
+                color: black;
+                border-radius: 5px;
+            }
+        }
+
+
+    }
+}

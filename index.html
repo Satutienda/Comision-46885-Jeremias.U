@@ -1,617 +1,505 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satutienda</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="shortcut icon" href="./img/logosatu.png">
-</head>
-<body>
-    <header> 
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Satutienda</title>
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="shortcut icon" href="./img/logosatu.png">
+    </head>
 
-        <!-- Seguire Trabajando el nav sin boostrap 
+    <body>
+        <header> 
+
+            <!-- Seguire Trabajando el nav sin boostrap 
+                
+                <img class="logoNav"  src="./img/logosatusinfondo.png" alt="Satutienda"> 
             
-            <img class="logoNav"  src="./img/logosatusinfondo.png" alt="Satutienda"> 
-        
-        <div>
-            
+            <div>
+                
 
-            <input type="text" name="nombre" id="nombre" placeholder=" Buscalo aqui" >   
+                <input type="text" name="nombre" id="nombre" placeholder=" Buscalo aqui" >   
 
 
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Inicio</a></li>
-                    <li><a href="./Pages/todoslosproductos.html">Productos</a></li>
-                    <li><a href="./Pages/comocomprar.html">Como lo compro?</a></li>
-                    <li><a href="./Pages/contactanos.html">Quiero consultar</a></li>
-                </ul>
-            </nav>
-            
-                <img class="carroFav" src="./img/image_processing20200511-25230-1yr34yk.png" alt="favoritos"> 
-                <img class="carroFav" src="./img/symbole-charrette-jaune.png" alt="Carro">
-                <img class="userAvatar" src="./img/ffa09aec412db3f54deadf1b3781de2a.png" alt="avatar"> 
                 <nav>
                     <ul>
-                        <li><a href="">Hola!! Usuario</a></li>
-                        <li ><a class="cerrarSesion" href="">Cerrar sesion</a></li>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./Pages/todoslosproductos.html">Productos</a></li>
+                        <li><a href="./Pages/comocomprar.html">Como lo compro?</a></li>
+                        <li><a href="./Pages/contactanos.html">Quiero consultar</a></li>
                     </ul>
                 </nav>
-        </div>
-        -->
-
-        <!--Aqui Nav de boostrap -->
-
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img class="logoNav"  src="./img/logosatusinfondo.png" alt="Satutienda"> </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./Pages/todoslosproductos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Pages/comocomprar.html">Como lo compro?</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Pages/contactanos.html">Quiero consultar</a>
-                    </li>
-
-                    
                 
-                </ul>
-                <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscalo aqui" aria-label="Search">
-                <button class="btn btn-outline-warning" type="submit">Buscar</button>
-                </form>
+                    <img class="carroFav" src="./img/image_processing20200511-25230-1yr34yk.png" alt="favoritos"> 
+                    <img class="carroFav" src="./img/symbole-charrette-jaune.png" alt="Carro">
+                    <img class="userAvatar" src="./img/ffa09aec412db3f54deadf1b3781de2a.png" alt="avatar"> 
+                    <nav>
+                        <ul>
+                            <li><a href="">Hola!! Usuario</a></li>
+                            <li ><a class="cerrarSesion" href="">Cerrar sesion</a></li>
+                        </ul>
+                    </nav>
             </div>
-            </div>
-        </nav>
+            -->
 
+            <!--Aqui Nav de boostrap -->
 
-    </header>
-
-
-
-
-    <main> 
-        <!-- Seccion Orientadora para navegar por clases de Productos  -->
-        <section class="heroStyles">
-            <div class="heroStylesContenedor">
-                        
-                            <div>
-                                <img src="./img/ulefone-armor-24-04.jpg" alt="Descripcion de la imagen">
-                                <div>
-                                <h6>Resistentes</h6> 
-                                <a href="./Pages/todoslosproductos.html">Ver todo</a>
-                                </div>                             
-                            </div>       
-                            <div>
-                                <img src="./img/jeremias115_una_sala_de_esta_con_mobiliario_minimalistas__Stiyl_99be322e-99fa-4e35-88a6-9333c866577a.png" alt="Descripcion de la imagen">
-                                <div>
-                                <h6> Deco para tu hogar</h6>
-                                <a href="./Pages/todoslosproductos.html">Ver todo</a> 
-                                </div>                             
-                            </div>
-                            <div>
-                                <img src="./img/jeremias115_un_set_de_escritorio_gamer_auriculares_mouse_reclad_030bcd87-d1b2-439f-ad2b-79bba9a22216.png">
-                                <div>
-                                <h6> Todo en Gaming</h6> 
-                                <a href="./Pages/todoslosproductos.html">Ver todo</a>
-                                </div>                               
-                            </div> 
-                            <div>
-                                <img src="./img/jeremias115_una_mujer_y_un_hombre_vestidos_con_ropa_hip_hop_ent_daaa4480-2653-4c3d-bb86-1aff114a53a9.png">
-                                <div>
-                                <h6>Diseños unicos</h6> 
-                                <a href="./Pages/todoslosproductos.html">Ver todo</a>
-                            </div>                              
-                            </div>
-                            
-                            <a class="textoPrincipal" href="./Pages/todoslosproductos.html">Todo lo que buscas, esta aqui ..</a>
-                            
-            </div>           
-            
-        </section>
-        <!-- En dispositivos moviles  -->
-        <section class="carouselBootrap">
-            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./img/jeremias115_un_set_de_escritorio_gamer_auriculares_mouse_reclad_030bcd87-d1b2-439f-ad2b-79bba9a22216.png" class="d-block w-100" alt="...">
-
-                        <h6>
-                            Todo en Gaming
-                            <a href="./Pages/todoslosproductos.html">Ver todo</a>
-                        </h6> 
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/ulefone-armor-24-04.jpg" class="d-block w-100" alt="...">
-                        <h6>
-                            Smartphones resistentes
-                            <a href="./Pages/todoslosproductos.html">Ver todo</a>
-                        </h6> 
-
-
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/jeremias115_una_sala_de_esta_con_mobiliario_minimalistas__Stiyl_99be322e-99fa-4e35-88a6-9333c866577a.png" class="d-block w-100" alt="...">
-                        <h6>
-                            Artículos para decorar tu hogar
-                            <a href="./Pages/todoslosproductos.html">Ver todo</a>
-                        </h6> 
-
-
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/jeremias115_una_mujer_y_un_hombre_vestidos_con_ropa_hip_hop_ent_daaa4480-2653-4c3d-bb86-1aff114a53a9.png" class="d-block w-100" alt="...">
-                        <h6>
-                            Diseños unicos
-                            <a href="./Pages/todoslosproductos.html">Ver todo</a>
-                        </h6> 
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img class="logoNav"  src="./img/logosatusinfondo.png" alt="Satutienda"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-                </div>
-        </section>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Pages/todoslosproductos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pages/comocomprar.html">Como lo compro?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Pages/contactanos.html">Quiero consultar</a>
+                        </li>
 
-        <!-- Aqui estaran los Productos Nuevos -->
-        <section class="novedades">    
-
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/nuevo.png" alt="">
-                            <img class="fotoprincipal" src="./img/829661123-1689127302.jpg" alt="">
-                            <h3 class="descripcionProducto">Cuchillos acero en colores pasteles</h3>
-                        </div>
                         
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 1890,90</h6>
-                    <h6 class="precioActual">UYU 1490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-                
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/nuevo.png" alt="">
-                            <img class="fotoprincipal" src="./img/14900242411817914774.jpg" alt="">
-                            <h3 class="descripcionProducto">Veladora Cuac Cuac,Divertidas!!</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 890,90</h6>
-                    <h6 class="precioActual">UYU 490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-                
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/nuevo.png" alt="">
-                            <img class="fotoprincipal" src="./img/-12846569131945056387.jpg" alt="">
-                            <h3 class="descripcionProducto">Hub Usb 11 puertos en 1 Compatible con Windows y Mac</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-                
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/nuevo.png" alt="">
-                            <img class="fotoprincipal" src="./img/-7846441201093133553.jpg" alt="">
-                            <h3 class="descripcionProducto">Sepillo de Alanbre para limpiar parrilla</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>             
-            </Div>   
-            
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/nuevo.png" alt="">
-                            <img class="fotoprincipal" src="./img/829661123-1689127302.jpg" alt="">
-                            <h3 class="descripcionProducto">Cuchillos acero en colores pasteles</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 1890,90</h6>
-                    <h6 class="precioActual">UYU 1490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-                
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/nuevo.png" alt="">
-                            <img class="fotoprincipal" src="./img/14900242411817914774.jpg" alt="">
-                            <h3 class="descripcionProducto">Veladora Cuac Cuac,Divertidas!!</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 890,90</h6>
-                    <h6 class="precioActual">UYU 490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-                
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/nuevo.png" alt="">
-                            <img class="fotoprincipal" src="./img/-12846569131945056387.jpg" alt="">
-                            <h3 class="descripcionProducto">Hub Usb 11 puertos en 1 Compatible con Windows y Mac</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-                
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/nuevo.png" alt="">
-                            <img class="fotoprincipal" src="./img/-7846441201093133553.jpg" alt="">
-                            <h3 class="descripcionProducto">Sepillo de Alanbre para limpiar parrilla</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-            </Div>
-
-
-
-            
-            <Div class="tarjetaProducto">
                     
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/saleIconred.png" alt="">
-                            <img class="fotoprincipal" src="./img/555412439-377864888.jpg" alt="">
-                            <h3 class="descripcionProducto">Boligrafos Avangers</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscalo aqui" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                    </form>
                 </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
                 </div>
+            </nav>
 
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/saleIconred.png" alt="">
-                            <img class="fotoprincipal" src="./img/-726035879-1601697983.jpg" alt="">
-                            <h3 class="descripcionProducto">Blusa manga larga azul</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
 
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/saleIconred.png" alt="">
-                            <img class="fotoprincipal" src="./img/-1166333637-136871420.jpg" alt="">
-                            <h3 class="descripcionProducto">Bolsas y carteras marcas Famosas</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>       
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
+        </header>
 
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/saleIconred.png" alt="">
-                            <img class="fotoprincipal" src="./img/203910549115918645.jpg" alt="">
-                            <h3 class="descripcionProducto">Auriculares Inalambricos blacos</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/saleIconred.png" alt="">
-                            <img class="fotoprincipal" src="./img/57641559470688649.jpg" alt="">
-                            <h3 class="descripcionProducto">juego de pinzas de cocina multicolor</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/saleIconred.png" alt="">
-                            <img class="fotoprincipal" src="./img/3469626791741216788.jpg" alt="">
-                            <h3 class="descripcionProducto">Anillo metalico negro mate</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/saleIconred.png" alt="">
-                            <img class="fotoprincipal" src="./img/1236129359585358007.jpg" alt="">
-                            <h3 class="descripcionProducto">Auricuares Inalambricos gaming</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-
-            </Div>
-            <Div class="tarjetaProducto">
-                
-                <div>
-                        <div class="espacioImagen">
-                            <img class="pinProducto" src="./img/saleIconred.png" alt="">
-                            <img class="fotoprincipal" src="./img/10233358201152794930.jpg" alt="">
-                            <h3 class="descripcionProducto">Altavoces Bluetooth avangers</h3>
-                        </div>
-                        
-                        <div class="iconoscondiciones">
-                            <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
-                            <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
-                            <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
-                        </div>        
-                </div>     
-                <div class="precios">
-                    <h6 class="precioAnterior">UYU 2890,90</h6>
-                    <h6 class="precioActual">UYU 2490,00</h6>
-                </div>
-                <div class="botonComprar">
-                    <a  href="">Compralo ya!</a>
-                </div>
-
-            </Div>
-        </section>
-
-        <!-- Seccion Orientadora para Navegar por Estilos-->
-        <section class="grid-galeria">
-
-            <div class="div-tecno">
-                <img class="tecno" src="./img/jeremias115_Set_of_PC_gamer_with_street_art_style_5b210647-2c87-406b-b3e4-d896db10bd0c.png" alt="urbano">
-                <div class="tituloParrafo">
-                    <h3 class="tituloTecno">Lo mejor en Gaming</h3>
-                    <p class="ParrafosGrid"> Te gusta la tecnologia ? encontra todo lo que buscar en Satutienda ..                   
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="div-urbano">
-                <img class="urbano" src="./img/jeremias115_un_hombre_y_una_mujer_vestidos_con_estilo_hiphop_de_4378b6eb-efa0-47c1-869e-df38c531ffe0.png" alt="urbano">
-
-                <div class="tituloParrafo">
-                    <h3 class="tituloUrbano">Tu estilo..</h3>
-                    
+        <main> 
+            <!-- Seccion Orientadora para navegar por clases de Productos  -->
+            <section class="heroStyles">
+                <div class="heroStylesContenedor">
+                            
+                                <div>
+                                    <img src="./img/ulefone-armor-24-04.jpg" alt="Descripcion de la imagen">
+                                    <div>
+                                    <h6>Resistentes</h6> 
+                                    <a href="./Pages/todoslosproductos.html">Ver todo</a>
+                                    </div>                             
+                                </div>       
+                                <div>
+                                    <img src="./img/jeremias115_una_sala_de_esta_con_mobiliario_minimalistas__Stiyl_99be322e-99fa-4e35-88a6-9333c866577a.png" alt="Descripcion de la imagen">
+                                    <div>
+                                    <h6> Deco para tu hogar</h6>
+                                    <a href="./Pages/todoslosproductos.html">Ver todo</a> 
+                                    </div>                             
+                                </div>
+                                <div>
+                                    <img src="./img/jeremias115_un_set_de_escritorio_gamer_auriculares_mouse_reclad_030bcd87-d1b2-439f-ad2b-79bba9a22216.png">
+                                    <div>
+                                    <h6> Todo en Gaming</h6> 
+                                    <a href="./Pages/todoslosproductos.html">Ver todo</a>
+                                    </div>                               
+                                </div> 
+                                <div>
+                                    <img src="./img/jeremias115_una_mujer_y_un_hombre_vestidos_con_ropa_hip_hop_ent_daaa4480-2653-4c3d-bb86-1aff114a53a9.png">
+                                    <div>
+                                    <h6>Diseños unicos</h6> 
+                                    <a href="./Pages/todoslosproductos.html">Ver todo</a>
+                                </div>                              
+                                </div>
+                                
+                                <a class="textoPrincipal" href="./Pages/todoslosproductos.html">Todo lo que buscas, esta aqui ..</a>
+                                
                 </div>           
-            </div>
-            <div class="div-agente"><img class="agente" src="./img/jeremias115_trabajador_enpresa_de_envios_postales_entregando_un_cc024cfd-1e52-495d-8e99-758e913d08ed.png" alt="urbano"></div>
+                
+            </section>
+            <!-- En dispositivos moviles  -->
+            <section class="carouselBootrap">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/jeremias115_un_set_de_escritorio_gamer_auriculares_mouse_reclad_030bcd87-d1b2-439f-ad2b-79bba9a22216.png" class="d-block w-100" alt="...">
+
+                            <h6>
+                                Todo en Gaming
+                                <a href="./Pages/todoslosproductos.html">Ver todo</a>
+                            </h6> 
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/ulefone-armor-24-04.jpg" class="d-block w-100" alt="...">
+                            <h6>
+                                Smartphones resistentes
+                                <a href="./Pages/todoslosproductos.html">Ver todo</a>
+                            </h6> 
+
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/jeremias115_una_sala_de_esta_con_mobiliario_minimalistas__Stiyl_99be322e-99fa-4e35-88a6-9333c866577a.png" class="d-block w-100" alt="...">
+                            <h6>
+                                Artículos para decorar tu hogar
+                                <a href="./Pages/todoslosproductos.html">Ver todo</a>
+                            </h6> 
+
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/jeremias115_una_mujer_y_un_hombre_vestidos_con_ropa_hip_hop_ent_daaa4480-2653-4c3d-bb86-1aff114a53a9.png" class="d-block w-100" alt="...">
+                            <h6>
+                                Diseños unicos
+                                <a href="./Pages/todoslosproductos.html">Ver todo</a>
+                            </h6> 
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+            </section>
+
+            <!-- Aqui estaran los Productos Nuevos -->
+            <section class="novedades">    
+
+
+                <Div class="tarjetaProducto">
+                    
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/nuevo.png" alt="">
+                                <img class="fotoprincipal" src="./img/14900242411817914774.jpg" alt="">
+                                <h3 class="descripcionProducto">Veladora Cuac Cuac,Divertidas!!</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>        
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 890,90</h6>
+                        <h6 class="precioActual">UYU 490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
+                    
+                </Div>
+                <Div class="tarjetaProducto">
+                    
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/nuevo.png" alt="">
+                                <img class="fotoprincipal" src="./img/-12846569131945056387.jpg" alt="">
+                                <h3 class="descripcionProducto">Hub Usb 11 puertos en 1 Compatible con Windows y Mac</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>        
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 2890,90</h6>
+                        <h6 class="precioActual">UYU 2490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
+                    
+                </Div>
+                <Div class="tarjetaProducto">
+                    
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/nuevo.png" alt="">
+                                <img class="fotoprincipal" src="./img/-7846441201093133553.jpg" alt="">
+                                <h3 class="descripcionProducto">Sepillo de Alanbre para limpiar parrilla</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>        
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 2890,90</h6>
+                        <h6 class="precioActual">UYU 2490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
+                </Div>
 
 
 
-            <div class="div-deCompras"><img class="deCompras" src="./img/jeremias115_un_hombre_y_una_mujer_en_un_centro_comercial_con_bo_ff6e3822-46b9-4e01-9c3a-b29c23b0260c.png" alt="decompras">
+                
+                <Div class="tarjetaProducto">
+                        
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/saleIconred.png" alt="">
+                                <img class="fotoprincipal" src="./img/555412439-377864888.jpg" alt="">
+                                <h3 class="descripcionProducto">Boligrafos Avangers</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>        
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 2890,90</h6>
+                        <h6 class="precioActual">UYU 2490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
 
-                <div class="tituloParrafo">
-                    <h3 class="tituloCompras">De todo para el y para ella ..</h3>
-                </div>    
+                </Div>
+                <Div class="tarjetaProducto">
+                    
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/saleIconred.png" alt="">
+                                <img class="fotoprincipal" src="./img/-726035879-1601697983.jpg" alt="">
+                                <h3 class="descripcionProducto">Blusa manga larga azul</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>        
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 2890,90</h6>
+                        <h6 class="precioActual">UYU 2490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
+
+                </Div>
+                <Div class="tarjetaProducto">
+                    
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/saleIconred.png" alt="">
+                                <img class="fotoprincipal" src="./img/-1166333637-136871420.jpg" alt="">
+                                <h3 class="descripcionProducto">Bolsas y carteras marcas Famosas</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>       
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 2890,90</h6>
+                        <h6 class="precioActual">UYU 2490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
+
+                </Div>
+                <Div class="tarjetaProducto">
+                    
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/saleIconred.png" alt="">
+                                <img class="fotoprincipal" src="./img/203910549115918645.jpg" alt="">
+                                <h3 class="descripcionProducto">Auriculares Inalambricos blacos</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>        
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 2890,90</h6>
+                        <h6 class="precioActual">UYU 2490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
+
+                </Div>
+                <Div class="tarjetaProducto">
+                    
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/saleIconred.png" alt="">
+                                <img class="fotoprincipal" src="./img/57641559470688649.jpg" alt="">
+                                <h3 class="descripcionProducto">juego de pinzas de cocina multicolor</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>        
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 2890,90</h6>
+                        <h6 class="precioActual">UYU 2490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
+
+                </Div>
+                <Div class="tarjetaProducto">
+                    
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/saleIconred.png" alt="">
+                                <img class="fotoprincipal" src="./img/3469626791741216788.jpg" alt="">
+                                <h3 class="descripcionProducto">Anillo metalico negro mate</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>        
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 2890,90</h6>
+                        <h6 class="precioActual">UYU 2490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
+
+                </Div>
+                <Div class="tarjetaProducto">
+                    
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/saleIconred.png" alt="">
+                                <img class="fotoprincipal" src="./img/1236129359585358007.jpg" alt="">
+                                <h3 class="descripcionProducto">Auricuares Inalambricos gaming</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>        
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 2890,90</h6>
+                        <h6 class="precioActual">UYU 2490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
+
+                </Div>
+                <Div class="tarjetaProducto">
+                    
+                    <div>
+                            <div class="espacioImagen">
+                                <img class="pinProducto" src="./img/saleIconred.png" alt="">
+                                <img class="fotoprincipal" src="./img/10233358201152794930.jpg" alt="">
+                                <h3 class="descripcionProducto">Altavoces Bluetooth avangers</h3>
+                            </div>
+                            
+                            <div class="iconoscondiciones">
+                                <img class="pinCondicionesVenta" src="./img/EnvioGratis.png" alt="">
+                                <img class="pinCondicionesVenta" src="./img/TarjetaIcon.png" alt="">
+                                <img class="pinCondicionesVenta"src="./img/Envio24hs.png" alt="">
+                            </div>        
+                    </div>     
+                    <div class="precios">
+                        <h6 class="precioAnterior">UYU 2890,90</h6>
+                        <h6 class="precioActual">UYU 2490,00</h6>
+                    </div>
+                    <div class="botonComprar">
+                        <a  href="">Compralo ya!</a>
+                    </div>
+
+                </Div>
+            </section>
+
+            <!-- Seccion Orientadora para Navegar por Estilos-->
+            <section class="grid-galeria">
+
+                <div class="div-tecno">
+                    <img class="tecno" src="./img/jeremias115_Set_of_PC_gamer_with_street_art_style_5b210647-2c87-406b-b3e4-d896db10bd0c.png" alt="urbano">
+                    <div class="tituloParrafo">
+                        <h3 class="tituloTecno">Lo mejor en Gaming</h3>
+                        <p class="ParrafosGrid"> Te gusta la tecnologia ? encontra todo lo que buscar en Satutienda ..                   
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="div-urbano">
+                    <img class="urbano" src="./img/jeremias115_un_hombre_y_una_mujer_vestidos_con_estilo_hiphop_de_4378b6eb-efa0-47c1-869e-df38c531ffe0.png" alt="urbano">
+
+                    <div class="tituloParrafo">
+                        <h3 class="tituloUrbano">Tu estilo..</h3>
+                        
+                    </div>           
+                </div>
+
+                <div class="div-agente">
+                    <img class="agente" src="./img/jeremias115_trabajador_enpresa_de_envios_postales_entregando_un_cc024cfd-1e52-495d-8e99-758e913d08ed.png" alt="urbano">
+                </div>
+
+                <div class="div-deCompras">
+                    <img class="deCompras" src="./img/jeremias115_un_hombre_y_una_mujer_en_un_centro_comercial_con_bo_ff6e3822-46b9-4e01-9c3a-b29c23b0260c.png" alt="decompras">
+
+                    <div class="tituloParrafo">
+                        <h3 class="tituloCompras">De todo para el y para ella ..</h3>
+                    </div>    
+                
+                </div>
             
-            </div>
-            <div class="div-mascota"><img class="mascota" src="./img/jeremias115_3_gatos_y_un_perro_jugando_alegres_en_el_pasto_9b551572-c11c-4560-8af9-8ace5fbd3961.png" alt="urbano"></div>
-            <div class="div-sala"><img class="sala" src="./img/jeremias115_una_sala_de_esta_con_mobiliario_de_colores_pasteles_1c64def2-0158-49ea-accb-58dbd65aeb45.png" alt="urbano"></div>
-        </section>
+                <div class="div-mascota">
+                    <img class="mascota" src="./img/jeremias115_3_gatos_y_un_perro_jugando_alegres_en_el_pasto_9b551572-c11c-4560-8af9-8ace5fbd3961.png" alt="urbano">
+                </div>
 
-    </main>
+                <div class="div-sala">
+                    <img class="sala" src="./img/jeremias115_una_sala_de_esta_con_mobiliario_de_colores_pasteles_1c64def2-0158-49ea-accb-58dbd65aeb45.png" alt="urbano">
+                </div>
 
-    <footer>
+
+            </section>
+
+        </main>
+
+        <footer>
+                
+                <img class="logofoot" src="./img/logosatusinfondo.png" alt="Satutienda">
+                
+                <p>Satutienda es una empresa registrada en uruguay</p>  
             
-            <img class="logofoot" src="./img/logosatusinfondo.png" alt="Satutienda">
-            
-            <p>Satutienda es una empresa registrada en uruguay</p>  
-        
-            <div class="contactoicons">
-                <img src="./img/whatappicon.png" alt="Satutienda">
-                <img src="./img/instagramicon.png" alt="Satutienda">
-                <img src="./img/Facebookincon.png" alt="Satutienda">
-                <img src="./img/Mailicon.png" alt="Satutienda">
-            </div>
-    </footer>
+                <div class="contactoicons">
+                    <img src="./img/whatappicon.png" alt="Satutienda">
+                    <img src="./img/instagramicon.png" alt="Satutienda">
+                    <img src="./img/Facebookincon.png" alt="Satutienda">
+                    <img src="./img/Mailicon.png" alt="Satutienda">
+                </div>
+        </footer>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
-</html>

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+
+/*!------------------------------RESET----------------------------- cambio en hig des*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*!------------------------------nav bootrap -----------------------------*/
+
+
+.logoNav {
+    height: 60px;
+    width: 100%;
+    
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 10px;
+    padding: 0px;
+    height: 100%;
+}
+/*!------------------------------Carousel bootrap -----------------------------*/
+
+.carouselBootrap h6 { 
+    background-color: black;
+    color: white;
+}
+.carouselBootrap h6 a { 
+    color: yellowgreen;
+    text-decoration: none;
+}

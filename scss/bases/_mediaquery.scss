@@ -1,0 +1,154 @@
+
+
+/*!------------------------------MediaQ Generales-----------------------------!*/
+
+@media screen and (min-width:1145px)
+{
+
+    .carouselBootrap {
+    display: none;
+        
+    }
+
+}
+@media screen and (max-width:1145px)
+{
+    .heroStyles
+    {
+        .heroStylesContenedor 
+        {
+            display: none; 
+        }
+    }
+}
+
+
+
+
+
+/*!------------------------------MediaQ Quienes Somos -----------------------------!*/
+@media screen and (max-width:1000px){
+
+    .grid-galeria {
+        display: grid;
+        width: 100%;
+        height: 70vh;
+        grid-template-columns:   1fr;
+        grid-template-rows: 40% 30% 30% ;      
+        gap: 2px;
+
+        .div-tecno
+        {
+            display: flex;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 1;
+            grid-row-end: 1  ;
+            
+        }
+
+        .div-urbano
+        { 
+            display: flex;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 2;
+            grid-row-end: 2  ;
+
+            .tituloParrafo
+            {
+                .tituloUrbano
+                {
+                    font-size:xx-large;
+                    color: lightgrey;
+                    text-shadow: 2px 1px 0px black;
+                }
+            }
+        
+        }
+        
+        .div-sala 
+        {
+            display: none;
+        }
+        
+        .div-deCompras{
+            grid-column-start: 1;
+            grid-column-end: 1;
+            grid-row-start: 3; 
+        }
+        .div-agente
+        { 
+            display: none; 
+        }
+        .div-mascota
+        {      
+            display: none;
+        }
+        
+    }
+
+}
+
+/*!------------------------------MediaQ Contacto-----------------------------!*/
+@media screen and (max-width:425px)
+{
+
+    .QuieroConsultar
+    {
+
+                .formularioContacto
+                {
+                    display: flex;
+                    flex-direction: column;
+                    width: 90%; 
+
+                    .encabezadoFormulario
+                    {
+                        display: flex;
+                        flex-direction: column; 
+
+                    }
+                    .sobreQueConsulta
+                    { 
+                        display: flex;
+                        flex-direction: column; 
+                    
+                    }
+                    .datosPersonales
+                    {
+                        display: flex;
+                        flex-direction: column; 
+
+                    }
+                    .textolibre
+                    {
+                        display: flex;
+                        flex-direction: column; 
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: column; 
+
+                    }
+                }
+    }            
+}
+
+
+
+
+
+
+
+

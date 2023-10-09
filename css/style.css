@@ -179,13 +179,6 @@ border-top: rgba(220, 220, 220, 0.186) solid 1px;
 
 }
 
-
-
-
-
-
-
-
 .carouselBootrap h6 { 
     background-color: #0f4d5c;
     color: white;
@@ -212,7 +205,6 @@ border-top: rgba(220, 220, 220, 0.186) solid 1px;
     flex-direction: column;
     align-items: center;   
 }
-
 
 .formularioContacto {
     display: flex;
@@ -264,10 +256,6 @@ border-top: rgba(220, 220, 220, 0.186) solid 1px;
     }
 
 }
-
-
-
-
 
 .tipoClienteConsulta{
     background-color: #0c0f0a;
@@ -381,7 +369,6 @@ border-radius: 10px;
 }
 .iconoscondiciones{
     display: flex;
-
     justify-content: space-around;
     border:gainsboro solid 1px;
     background-color: #0c0f0a14;

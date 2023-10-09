@@ -1,0 +1,346 @@
+
+
+
+.heroStyles
+{
+    background-color: black;  
+    .heroStylesContenedor
+    {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        position: relative;
+        border-top: rgba(220, 220, 220, 0.186) solid 1px;
+        div
+        {
+            width: 280px; 
+            img
+            {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            div
+            {   
+                display: flex;
+                justify-content: space-between;
+                background-color: #000000f0;
+                align-content: center;
+
+                h6
+                {
+                    color: azure;
+                    font-size: 10px;
+                    padding: 5px; 
+                }
+                a
+                {
+                    color: yellowgreen;
+                    font-size: 10px;
+                    padding: 5px;
+                    text-decoration: none;
+                }
+            }
+        }
+        .textoPrincipal
+        {
+            position: absolute;
+            background-color: yellow;
+            color:  gray; 
+            text-decoration: none;
+            border-radius: 5px;
+            padding: 2px;
+        }
+    }
+}
+
+
+.novedades
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;   
+    justify-content: center;
+    margin-top: 20px;
+
+    .tarjetaProducto
+    {
+        width: 175px;
+        height: 100%;
+        position: relative;
+        border: #0c0f0a solid 1px;
+        border-radius: 10px;
+        box-shadow: 3px -3px 3px gainsboro;
+        border:gainsboro solid 1px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+
+        div
+        {
+            .espacioImagen
+            {
+                display: flex;
+                height: 100%;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                position: relative;
+                border-radius: 10px;
+            
+            
+
+                .pinProducto
+                {
+                    height: 15%;
+                    width: 17%;
+                    position: absolute;
+                    align-self: self-start; 
+                }
+                .fotoprincipal
+                {
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 10px;
+                }
+                .descripcionProducto
+                {
+                    position: absolute;
+                    color: whitesmoke;
+                    background-color: #0c0f0a9e;
+                    font-size: xx-small;
+                    width: 100%;
+                    height: 20%;
+                    padding: 5px;
+                    align-self: self-end; 
+                    text-align:center;
+                    
+                }
+            }
+            .iconoscondiciones
+            {
+                display: flex;
+                justify-content: space-around;
+                border:gainsboro solid 1px;
+                background-color: #0c0f0a14;
+
+                .pinCondicionesVenta
+                {
+                    height: 4%;
+                    width: 15%;      
+                }
+            }
+            
+        }
+        .precios
+            {
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 15px;
+                margin-top: 15px;
+
+                .precioAnterior
+                {
+                    text-decoration:line-through;
+                    color: #ff595e;
+                    font-size: x-small;     
+                }  
+                .precioActual
+                {
+                    color: #264653;
+                    font-size: small;
+                } 
+            } 
+        .botonComprar
+        {
+            display: flex;
+            justify-content: center;
+            a
+            {
+                background-color: $colorTarjetasBotonComp;
+                border-radius: 5px;
+                text-decoration: none;
+                color: white;
+                font-size: small;
+                padding: 5px;
+                margin-bottom: 5px;
+            }
+        }      
+    }
+}
+
+
+.grid-galeria
+{
+    display: grid;
+    width: 100%;
+    height: 70vh;
+    grid-template-columns:   1fr 1fr 1fr 1fr;
+    grid-template-rows: 40% 30% 30% ;
+    gap: 2px;
+    margin-bottom: 10px;
+
+    .div-tecno
+    {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        align-items: center;    
+        justify-content: center;
+        
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 4  ;   
+
+        .tecno
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .tituloParrafo 
+        {
+            position: absolute; 
+
+            .tituloTecno
+            {
+                font-family: "Press Start 2P";
+                text-align: center;
+                color:#2ec4b6;
+                font-size: medium;
+                text-shadow: 2px 1px 0px black;
+            }
+            .ParrafosGrid
+            {
+                text-align: center;
+                color: #f0f4f3;
+                font-size: medium;
+            }
+        }
+
+
+
+    }
+    
+    .div-urbano
+    {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+
+        .urbano
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 90% 5%;
+        }
+        .tituloParrafo
+        {
+            position: absolute;
+
+            .tituloUrbano
+            {
+                font-family: "Covered By Your Grace";
+                text-align: center;
+                background-color: #26465389;
+                border-radius: 10%;
+                font-size: 50px;
+                color: lightgrey;
+                text-shadow: 2px 1px 0px black;
+            }
+        }
+
+    }
+
+    .div-agente
+    {
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1; 
+        .agente
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 90% 5%;
+        }
+    }
+
+    .div-deCompras
+    {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+            
+        .deCompras
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 100% 15%;
+        }
+        .tituloParrafo
+        {
+            position: absolute;
+
+            .tituloCompras
+            {
+                text-align: center;
+                border-radius: 10%;
+                font-size: 20px;
+                color: rgba(211, 211, 211, 0.692);
+                text-shadow: 2px 1px 0px black;
+            }
+        }
+
+    }
+
+    .div-mascota
+    {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+
+        .mascota
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 100% 30%;
+        }
+    }
+
+    .div-sala
+    {
+        grid-column-start: 2;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        .sala
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 100% 70%;
+        }
+    }
+
+
+
+
+
+}
