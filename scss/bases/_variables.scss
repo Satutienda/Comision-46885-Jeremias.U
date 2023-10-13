@@ -1,9 +1,31 @@
 $colorLogoAmarillo:  #ffea00;
-$colorLogoCeleste:  #80ffdb;
+$colorLogoCeleste:  #66FFFF;
 $colorLogopurpura:  #e4c1f9;
 $colorLogoNaranja:  #ff8800;
+$colorLogoVerde: #07f49e;
 $colorLogoGris:  #b1a7a6;
 
 $colorTarjetasDesCripArt:#0c0f0a14;
 $colorTarjetasBotonComp: rgba(0, 0, 0, 0.723);
 $colorTarjetasPrecioViejo: #bf0603;
+
+
+%botonesConfirmacion {
+    background-color: white;
+    border-style: none;
+    color: $colorLogoVerde;
+    padding: 5px;
+    font-size: xx-small; 
+    font-weight: 500;
+    box-shadow: 0px 0px 2px 2px #ffea00;
+    -webkit-box-shadow: 0px 0px 2px 2px #ffea00;
+    -moz-box-shadow: 0px 0px 2px 2px #ffea00;
+}
+
+@mixin textosGamer ($color, $fontSize, $fontFamily )
+{
+    color: $color;
+    font-size: $fontSize;
+    font-family: $fontFamily;
+}
+

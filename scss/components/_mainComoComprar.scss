@@ -1,0 +1,81 @@
+.ComoLoCompro
+{   display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .ConsejoPrincipal
+    {
+        width: 400px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        background-image: linear-gradient( to bottom, rgba(9, 9, 9, 0.248),  rgba(9, 9, 9, 0.275)), url("../img/jeremias115_A_person_staring_at_the_camera_confused_stressed_ab_7890bb22-d56b-4ebc-9bdf-60fd701606fd.png");
+        background-size: cover;
+        background-position: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        border-style: none;
+        border-radius:5px;
+    
+
+        h3
+        {
+        color: aqua;
+        text-align: center;
+        font-size: medium;
+        margin-top: 0px;
+        }
+        p
+        {
+        color: rgb(247, 248, 247);
+        text-align: center;
+        width: 100%;
+        }
+        
+    }
+
+    div
+    {
+        width: 400px;
+        height: 300px;
+        
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px 2px #c2c1be;
+        -webkit-box-shadow: 0px 0px 2px 2px #c7c7c3;
+        -moz-box-shadow: 0px 0px 2px 2px #cecec8;
+        h2
+        {
+            color: aqua;
+            text-align: center;
+            font-size: 50px;
+            margin-top: 0px; 
+        }
+        h3
+        {
+        color: darkslategray;
+        text-align: center;
+        font-size: medium;
+        margin-top: 0px;
+        }
+        p
+        {
+        color: coral;
+        text-align: center;
+        width: 100%;
+        }
+
+
+
+
+
+
+
+    }
+}

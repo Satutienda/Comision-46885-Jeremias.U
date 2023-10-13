@@ -1,15 +1,18 @@
 
 
 
-.QuieroConsultar{
+.QuieroConsultar
+{
 
-    display: flex;
-    justify-content: start;
-    align-items: end;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(9, 9, 9, 0.704),
-        rgba(9, 9, 9, 0.704)), url("../img/jeremias115_trabajador_enpresa_de_envios_postales_entregando_un_cc024cfd-1e52-495d-8e99-758e913d08ed.png");
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        background-image: linear-gradient( to bottom, rgba(9, 9, 9, 0.704),  rgba(9, 9, 9, 0.704)), url("../img/jeremias115_trabajador_enpresa_de_envios_postales_entregando_un_cc024cfd-1e52-495d-8e99-758e913d08ed.png");
+        background-size: cover;
+        background-position: top;
+        
+
+        
 
         .googleMaps
         {   display: flex;
@@ -28,8 +31,9 @@
             }
             h6
             {
+                @include textosGamer ( $colorLogoAmarillo,medium,"Press Start 2P",);
                 text-align: center;
-                color: #ff006e;
+                color: $colorLogoAmarillo;
             }
         }
 
@@ -151,13 +155,9 @@
                 {
                     align-self: self-end;
                     margin-right: 10px;
-                    margin-bottom: 10px;
-                    font-size: xx-small;
-                    padding: 3px;
-                    background-color: $colorLogoCeleste;
-                    border-style: none;
-                    color: black;
+                    margin-bottom: 10px;           
                     border-radius: 5px;
+                    @extend %botonesConfirmacion
                 }
             }
 

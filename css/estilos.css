@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+.QuieroConsultar .formularioContacto div button {
+  background-color: white;
+  border-style: none;
+  color: #07f49e;
+  padding: 5px;
+  font-size: xx-small;
+  font-weight: 500;
+  box-shadow: 0px 0px 2px 2px #ffea00;
+  -webkit-box-shadow: 0px 0px 2px 2px #ffea00;
+  -moz-box-shadow: 0px 0px 2px 2px #ffea00; }
+
 /*!------------------------------RESET----------------------------- cambio en hig des*/
 * {
   margin: 0;
@@ -255,7 +266,9 @@ header nav ul li a {
   display: flex;
   justify-content: start;
   align-items: end;
-  background-image: linear-gradient(to bottom, rgba(9, 9, 9, 0.704), rgba(9, 9, 9, 0.704)), url("../img/jeremias115_trabajador_enpresa_de_envios_postales_entregando_un_cc024cfd-1e52-495d-8e99-758e913d08ed.png"); }
+  background-image: linear-gradient(to bottom, rgba(9, 9, 9, 0.704), rgba(9, 9, 9, 0.704)), url("../img/jeremias115_trabajador_enpresa_de_envios_postales_entregando_un_cc024cfd-1e52-495d-8e99-758e913d08ed.png");
+  background-size: cover;
+  background-position: top; }
   .QuieroConsultar .googleMaps {
     display: flex;
     flex-direction: column;
@@ -268,8 +281,11 @@ header nav ul li a {
       background-color: rgba(0, 0, 0, 0.832);
       box-shadow: 3px -3px 3px rgba(32, 30, 30, 0.778); }
     .QuieroConsultar .googleMaps h6 {
+      color: #ffea00;
+      font-size: medium;
+      font-family: "Press Start 2P";
       text-align: center;
-      color: #ff006e; }
+      color: #ffea00; }
   .QuieroConsultar .formularioContacto {
     display: flex;
     flex-direction: column;
@@ -348,12 +364,60 @@ header nav ul li a {
         align-self: self-end;
         margin-right: 10px;
         margin-bottom: 10px;
-        font-size: xx-small;
-        padding: 3px;
-        background-color: #80ffdb;
-        border-style: none;
-        color: black;
         border-radius: 5px; }
+
+.ComoLoCompro {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .ComoLoCompro .ConsejoPrincipal {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    background-image: linear-gradient(to bottom, rgba(9, 9, 9, 0.248), rgba(9, 9, 9, 0.275)), url("../img/jeremias115_A_person_staring_at_the_camera_confused_stressed_ab_7890bb22-d56b-4ebc-9bdf-60fd701606fd.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-style: none;
+    border-radius: 5px; }
+    .ComoLoCompro .ConsejoPrincipal h3 {
+      color: aqua;
+      text-align: center;
+      font-size: medium;
+      margin-top: 0px; }
+    .ComoLoCompro .ConsejoPrincipal p {
+      color: #f7f8f7;
+      text-align: center;
+      width: 100%; }
+  .ComoLoCompro div {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px #c2c1be;
+    -webkit-box-shadow: 0px 0px 2px 2px #c7c7c3;
+    -moz-box-shadow: 0px 0px 2px 2px #cecec8; }
+    .ComoLoCompro div h2 {
+      color: aqua;
+      text-align: center;
+      font-size: 50px;
+      margin-top: 0px; }
+    .ComoLoCompro div h3 {
+      color: darkslategray;
+      text-align: center;
+      font-size: medium;
+      margin-top: 0px; }
+    .ComoLoCompro div p {
+      color: coral;
+      text-align: center;
+      width: 100%; }
 
 footer {
   background-color: #0c0f0a;
