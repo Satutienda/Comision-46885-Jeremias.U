@@ -2,14 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
 
 
-/*!------------------------------RESET----------------------------- cambio en hig des*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 /*!------------------------------nav bootrap -----------------------------*/
 
@@ -37,4 +30,13 @@ header nav ul li a{
 .carouselBootrap h6 a { 
     color: yellowgreen;
     text-decoration: none;
+}
+
+/*!------------------------------RESET----------------------------- cambio en hig des*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

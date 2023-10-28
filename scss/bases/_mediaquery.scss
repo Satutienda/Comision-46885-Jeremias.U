@@ -106,6 +106,7 @@
 
     .QuieroConsultar
     {
+    
 
                 .formularioContacto
                 {
@@ -164,8 +165,26 @@
     }
 }
 
+/*!------------------------------MediaQ PreguntasFrecuentes-----------------------------!*/
 
 
+@media screen and (max-width:600px)
+{
+
+    .PreguntasFrencuentes
+    {
+        grid-template-columns:   1fr;
+
+        .imagenPreguntasFrecuente
+        {
+            img{
+                height: 50vh
+            }
+        }
+
+        
+    }
+}
 
 
 
