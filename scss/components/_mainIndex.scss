@@ -166,7 +166,10 @@
                 font-size: small;
                 padding: 5px;
                 margin-bottom: 5px;
+            } & :hover {
+                background-color: gold;
             }
+
         }      
     }
 }

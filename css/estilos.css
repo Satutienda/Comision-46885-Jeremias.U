@@ -153,6 +153,8 @@ header nav ul li a {
         font-size: small;
         padding: 5px;
         margin-bottom: 5px; }
+      .novedades .tarjetaProducto .botonComprar :hover {
+        background-color: gold; }
 
 .grid-galeria {
   display: grid;
