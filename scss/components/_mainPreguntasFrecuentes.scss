@@ -9,9 +9,12 @@
 
     .imagenPreguntasFrecuente
     {
-        
+        display: flex;
         padding-top: 10px;
         background-color: rgba(0, 0, 0, 0.919);
+        position: relative;
+        align-items: end;
+        
 
         img{
             height: 87vh;
@@ -20,6 +23,26 @@
             background-color: rgba(0, 0, 0, 0.919);
             border-radius: 5px;
     
+        }
+
+        .descripcionFotopreguntasFrecuentes
+        {
+            position: absolute; 
+
+            .tituloFotoPreguntasFrencuentes
+            {
+                text-align: center;
+                color:#fbffff;
+                font-size: x-large;
+                text-shadow: 2px 1px 0px black;
+            }
+            .parrafoFotopreguntasFrecuentes
+            {
+                text-align: center;
+                color: #ffffff;
+                font-size: medium;
+                text-shadow: 2px 1px 0px black;
+            }
         }
         
     }

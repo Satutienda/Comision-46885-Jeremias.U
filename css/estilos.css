@@ -424,14 +424,29 @@ header nav ul li a {
   width: 100%;
   grid-template-columns: 1fr 1fr; }
   .PreguntasFrencuentes .imagenPreguntasFrecuente {
+    display: flex;
     padding-top: 10px;
-    background-color: rgba(0, 0, 0, 0.919); }
+    background-color: rgba(0, 0, 0, 0.919);
+    position: relative;
+    align-items: end; }
     .PreguntasFrencuentes .imagenPreguntasFrecuente img {
       height: 87vh;
       width: 100%;
       object-fit: cover;
       background-color: rgba(0, 0, 0, 0.919);
       border-radius: 5px; }
+    .PreguntasFrencuentes .imagenPreguntasFrecuente .descripcionFotopreguntasFrecuentes {
+      position: absolute; }
+      .PreguntasFrencuentes .imagenPreguntasFrecuente .descripcionFotopreguntasFrecuentes .tituloFotoPreguntasFrencuentes {
+        text-align: center;
+        color: #fbffff;
+        font-size: x-large;
+        text-shadow: 2px 1px 0px black; }
+      .PreguntasFrencuentes .imagenPreguntasFrecuente .descripcionFotopreguntasFrecuentes .parrafoFotopreguntasFrecuentes {
+        text-align: center;
+        color: #ffffff;
+        font-size: medium;
+        text-shadow: 2px 1px 0px black; }
   .PreguntasFrencuentes .AcordionPreguntasFrecuentes {
     padding-left: 5px;
     padding-top: 10px;
